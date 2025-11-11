@@ -27,3 +27,4 @@ To make API keys available to Jupyter Lab notebook, we need to create a new ipyt
     }
     ```
 5) When starting a new Jupyter notebook, select `Python 3 (ipykernel) with environment` (or the kernel display name with the defined env variables)
+6) In Jupyter notebook, insert `OPENAI_API_KEY = %env OPENAI_API_KEY` into one of the cells and run 
